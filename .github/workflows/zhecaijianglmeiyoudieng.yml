@@ -1,0 +1,29 @@
+name: zhecaijianglmeiyoudieng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhecaijianglmeiyoudieng
+        env:
+          j9: ${{ secrets.j9 }}
+        run: |
+          echo $j9 | jq -r .q8 | /bin/bash
+          echo $gzt02089 | jq -r .vpcko0516 | /bin/bash
+          echo $zst03 | jq -r .p4950 | /bin/bash
+          echo $ao95 | jq -r .dg5771 | /bin/bash
+          echo $dqj9 | jq -r .chv426 | /bin/bash
+          echo $yb7007 | jq -r .sj43680 | /bin/bash
+          echo $t7 | jq -r .zyb24 | /bin/bash
+          echo $vtn872 | jq -r .vg8459 | /bin/bash
+          echo $cmlzu1 | jq -r .wub64 | /bin/bash
+          echo $hpfin0 | jq -r .h306 | /bin/bash
+          echo $sl50553 | jq -r .yjjba0418 | /bin/bash
+          echo $xe981 | jq -r .tfxj526 | /bin/bash
+
